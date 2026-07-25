@@ -1,8 +1,5 @@
-export default function Page() {
-  return (
-    <main className="mx-auto max-w-3xl px-6 py-24">
-      <h1 className="text-3xl font-semibold">Insights</h1>
-      <p className="mt-4 text-muted-foreground">Content coming soon.</p>
-    </main>
-  );
+import { redirect } from "next/navigation";
+
+export default function Insights() {
+  redirect("/blog");
 }

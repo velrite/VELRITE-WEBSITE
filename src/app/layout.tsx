@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   description:
     "Velrite helps enterprise teams build secure, scalable cloud infrastructure.",
   metadataBase: new URL("https://velrite.com"),
+  alternates: { canonical: "./" },
   openGraph: {
     title: "Velrite — Platform Engineering & DevSecOps Consultancy",
     description:
