@@ -5,6 +5,12 @@ export default function Contact() {
       <p className="mt-4 text-muted-foreground">
         We typically respond within 1 business day.
       </p>
+      <p className="mt-6 text-sm text-muted-foreground">
+        Prefer email? Reach us directly at{" "}
+        <a href="mailto:hello@velrite.com" className="text-foreground font-medium hover:underline">
+          hello@velrite.com
+        </a>
+      </p>
       <form
         action="https://formspree.io/f/meeypojw"
         method="POST"
@@ -18,6 +24,10 @@ export default function Contact() {
           Send Message
         </button>
       </form>
+      <div className="mt-12 pt-8 border-t flex gap-6 text-sm text-muted-foreground">
+        <a href="https://www.linkedin.com/in/olamide-olalekan-12138a265/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">LinkedIn</a>
+        <a href="https://github.com/velrite" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">GitHub</a>
+      </div>
     </main>
   );
 }
