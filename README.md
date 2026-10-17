@@ -6,6 +6,7 @@
 Velrite is the independent engineering practice of Olamide, a platform and DevSecOps engineer. All engineering and client delivery is done by me, with content and operations support from a small team.
 
 I build and test Kubernetes platforms on AWS and GCP, focused on deployment safety, recovery behavior, security boundaries, and observability. My professional production ownership is still developing. My work so far is independent and production-modeled: I build systems, break them on purpose, and document what held, what failed, and what remains unverified.
+'''
 velrite.com
 │
 ├── Home
